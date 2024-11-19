@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+  }
+
+  .ancho {
+    max-width: 1200px;
+    /* border: 2px red solid; */
+    margin: auto;
+  }
+  .content-padre{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .card-1{
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+  }
+  .acordeon_titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 1px #ccc solid;
+    padding: 10px;
+    text-align: right;
+  }
+  .acordeon_titulo h3{
+    /* border: 1px red solid; */
+    width: 100%;
+    text-align: right;
+  }
+  .acordeon_titulo i{
+    padding: 3px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .acordeon_contenido{
+    border-bottom: 1px #ccc solid;
+    padding: 10px;
+  }
+  .acordeon_contenido p{
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .card-2{
+    max-width: 500px;
+    /* border: 1px red solid; */
+    width: 100%;
+    padding: 10px ;
+  }
+  .card-2 h2{
+    margin-bottom: 10px;
+  }
+  .content_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+  .barra{
+    max-width: 480px;
+    margin: auto;
+    border: 0;
+    background-color:#ccc ;
+    height: 1px;
+    margin-bottom: 20px;
+  }
